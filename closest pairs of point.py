@@ -9,5 +9,5 @@ def closest_pair(points):
         if distance<min:
             min=distance
             x,y=i,j
-    return x,y
+    return x,
 print(closest_pair([(3,4), (1,2),(2,3)]))
