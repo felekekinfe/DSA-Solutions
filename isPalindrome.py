@@ -1,5 +1,3 @@
-
-'''s should be string or integer'''
 def isPalindrome(s):
     s=str(s)
     l=0
@@ -13,5 +11,5 @@ def isPalindrome(s):
             l+=1
             r-=1
     return x
-print(isPalindrome(121))#true
-print(isPalindrome('aba'))#true
+
+print(isPalindrome('12'))#true
