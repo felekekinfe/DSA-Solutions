@@ -20,7 +20,7 @@ Output: "/home/foo"
 
 
 def solution(path):
-    
+
     stack=[]
     for i in path.split('/'):
         if i=='' or i=='.':
