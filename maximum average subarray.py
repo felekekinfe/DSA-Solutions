@@ -14,9 +14,10 @@ def max_subarray_average(n,k):
 
     for i in range(k):
         csum+=n[i]
+        msum=csum
     for i in range(k,len(n)):
-        csum=csum-n[i-k] + n[i]
+        csum=(csum-n[i-k]) + n[i]
         msum=max(csum,msum)
     return msum/k
-print(max_subarray_average( [5], 1))
+print(max_subarray_average( [9,7,3,5,6,2,0,8,1,9], 6)) #5.33
 
