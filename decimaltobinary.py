@@ -8,4 +8,4 @@ def decimaltobinary(n):
         b=b+str(r)
     return b
 
-print(decimaltobinary(6))
+print(decimaltobinary(45))
