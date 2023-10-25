@@ -5,7 +5,6 @@ def decimaltobinary(n):
     while n>=1:
         r=n%2
         n=n//2
-        b=b+str(r)
+        b=str(r)+b
     return b
-
-print(decimaltobinary(45))
+print(decimaltobinary(1))

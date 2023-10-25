@@ -10,4 +10,4 @@ def Binary_to_Decimal(n):
         c-=1
         powerof2=powerof2*2
     return b
-print(Binary_to_Decimal('101101'))
+print(Binary_to_Decimal('010110110101001111111000000111'))
