@@ -185,6 +185,5 @@ l.append(2)
 l.append(3)
 
 l.prepend(0)
-l.remove(0)
-print(l.get(4))
+
 l.printLinkedlist()
