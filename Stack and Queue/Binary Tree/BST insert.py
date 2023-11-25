@@ -8,6 +8,8 @@ def insert(self,value):
     temp=self.root
 
     while True:
+        if new_node.value==temp.value:
+            return False
         if new_node.value>temp.value:
             if temp.right==None:
                 temp.right=new_node

@@ -39,15 +39,20 @@
 # x[0]='t'
 # print(x)
 
-def a(candies,extraCandies):
-    result=[]
-    maxc=max(candies)
-    for i in candies:
-        e=i+extraCandies
-        if e>=maxc:
-            result.append('true')
-        else:
-            result.append('false')
-    return result
+# def a(candies,extraCandies):
+#     result=[]
+#     maxc=max(candies)
+#     for i in candies:
+#         e=i+extraCandies
+#         if e>=maxc:
+#             result.append('true')
+#         else:
+#             result.append('false')
+#     return result
     
-print(a([2,3,5,1,3],3))
+# print(a([2,3,5,1,3],3)
+
+x=[1,2,3]
+y=[4,5]
+x[0]=0
+print(x)
