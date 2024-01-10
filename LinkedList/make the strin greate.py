@@ -23,3 +23,8 @@ def makeGood(s):
 print(makeGood("abBAcC"))
 
 
+x=[1,2,2,3]
+
+x[1]=x[3]
+
+print(x)
